@@ -12,17 +12,17 @@ bzip2 -c9 Packages > Packages.bz2
 
 echo "[Repository] Generating Release..."
 apt-ftparchive \
-		-o APT::FTPArchive::Release::Origin="Sileo" \
-		-o APT::FTPArchive::Release::Label="Sileo" \
+		-o APT::FTPArchive::Release::Origin="ballpa1n repository" \
+		-o APT::FTPArchive::Release::Label="ballpa1n repository" \
 		-o APT::FTPArchive::Release::Suite="stable" \
-		-o APT::FTPArchive::Release::Version="2.0" \
+		-o APT::FTPArchive::Release::Version="420.69" \
 		-o APT::FTPArchive::Release::Codename="ios" \
 		-o APT::FTPArchive::Release::Architectures="iphoneos-arm" \
 		-o APT::FTPArchive::Release::Components="main" \
-		-o APT::FTPArchive::Release::Description="Sileo for Checkra1n and Unc0ver" \
+		-o APT::FTPArchive::Release::Description="A repository for necessary packages for the ballpa1n untether." \
 		release . > Release
 
-echo "[Repository] Signing Release using Amy's GPG Key..."
-gpg -abs -u 816C7A50B575162DC29288CD72339224580758CE -o Release.gpg Release
+echo "[Repository] Signing Release using Azreal's GPG Key..."
+gpg -abs -u DA2AF8284E071C1791102722BE2BED001FB080C2 -o Release.gpg Release
 
 echo "[Repository] Finished"

@@ -1,3 +1,53 @@
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-3
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.36-3_iphoneos-arm.deb
+Size: 1242528
+MD5sum: f55218a68a1f0ac9966bd40d8cc5ee67
+SHA1: 6f175ddec364c843427ac50372a57bf36d79b353
+SHA256: 340a1b8ee2048f24ef50ba89cd405e205721180ab2f87f45c333640092d3c3ac
+SHA512: 6effca68161fc518ba26d27a42f5cc489b072a0183c080d8545cd99f3cbe0eb6737f0c4ac559406dafb52b92fdf1dcebd652107515454758b5076b20a6e6363d
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-4
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 14.0)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.36-4_iphoneos-arm.deb
+Size: 1333614
+MD5sum: 811c1642f40c858adbc2e1eada205eb7
+SHA1: 78d6f2b2daabff270daa28ad60c4ca751508bd90
+SHA256: 49790811ed5bf00dc09de5ffb8e34f7ea2967fca498d8dda1f4a4752fdf2c53f
+SHA512: ac469e61e0aad6c168b2d451211f31720120091206c0d42459091a293ea3a4fde9ae163a864547e9aedca07ebeccd42e9c83d48de03a8abf8b2628f3ec7e72f1
+Description: graphical iPhone front-end for APT. This version is fixed for iOS 15+
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
 Package: libzstd1
 Architecture: iphoneos-arm
 Version: 1.5.0
@@ -19,114 +69,6 @@ Description: fast lossless compression algorithm
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
-Version: 2.2.1
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.1_iphoneos-arm.deb
-Size: 2198572
-MD5sum: 233bf16cf4ac47351c946c29cfa78230
-SHA1: 379b9b2d806e79638be6db315172a3a57c4cb016
-SHA256: 02d61d4dbd645f881774e3e30cbcf89e06d384025d15c3f599290008b2e4ae94
-SHA512: 3f8156b115c266561aba6caca87eade803fb74d26946e6ec4a37c8bd40739a2d957cba3144b8f681d36301b463ae3d8a6fe3d93f9cd105c780935e5bde9ee8aa
-Description: A modern APT package manager frontend
-Name: Sileo
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileo
-Architecture: iphoneos-arm
-Version: 2.2.2
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.2_iphoneos-arm.deb
-Size: 2198724
-MD5sum: e7b6c93a18820f4efe880d758ed56e13
-SHA1: 1eb14dddb9aab6d4a3497c6ac294918789230abb
-SHA256: aced42ef80bff295f7e227ec76e322d5a2083ded0c2d7400ce8393ec3d7932dc
-SHA512: 44cef69e0b54c177535c08f9212ec2ed40e114aed837615e5ef35d316552d42ac222a1d1b1fddc6ffda24f23a4baaf55aa24f8a9986aad5772410401a5e45b92
-Description: A modern APT package manager frontend
-Name: Sileo
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileo
-Architecture: iphoneos-arm
-Version: 2.2.3
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.3_iphoneos-arm.deb
-Size: 2199780
-MD5sum: 70a60e134dd1ca6e69913131e89c03df
-SHA1: ff18b87bb21da28929880504819e7737697c1129
-SHA256: e2daff014a72766d51391a1bf1185406163fa500bad149c68504708aab14c43a
-SHA512: cf5044a02420c66d4105c0548218bc3667dbe6a25ed70d1798bf52e27a63e35eb67b5d1fec9b9b698191a16b460e0f49c5bf4255ab4222bea6832b06f8f907b7
-Description: A modern APT package manager frontend
-Name: Sileo
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileo
-Architecture: iphoneos-arm
-Version: 2.2.4-1
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.4-1_iphoneos-arm.deb
-Size: 2008584
-MD5sum: fa993ceea75b6891f5d02c73536e88e1
-SHA1: 3e3d5e29aab285f19c59dcdac2d500558918dd7b
-SHA256: cf8c9eadb737b9b2614fa1c85db1fb837d2a877966265ad9bfaee3dcdfd4efa1
-SHA512: 0a52cf57584e2dab1553d183e17d91d714baa1b2a609d659f7a234093c4b1c0691c56a1f167202abd23d1cec5d93e2d832374550940d66961c454c7e7584482a
-Description: A modern APT package manager frontend
-Name: Sileo
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileo
-Architecture: iphoneos-arm
-Version: 2.2.4
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.4_iphoneos-arm.deb
-Size: 2004692
-MD5sum: 0d3b86d1cacfa582878d3a95e5d0e853
-SHA1: 78b1f61c42b9afc705e81c5444f6fd4aaa9a520f
-SHA256: ca9c4a6f3c21921f34e135191b85c6564a7822728257dbe583eb745ffdc33ab9
-SHA512: 9b3b2ad321de2fc509aec36cccbff01bc149b81a79037557b0f9fa19a5f26334b0ba8e0a6900103b378fa55c3888d94a7910802a53d93407d499df5b9a5d55cd
-Description: A modern APT package manager frontend
-Name: Sileo
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileo
-Architecture: iphoneos-arm
-Version: 2.2.5
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.5_iphoneos-arm.deb
-Size: 2013728
-MD5sum: 67fa3dce5d612a619ad945f47be737d3
-SHA1: e36ad1a374effadb081cb0e62aacb616b420e6fd
-SHA256: ccc9be922855c4b4fae085d7652391a99061f9c9ba34940b88f5d9c0df1a8971
-SHA512: 0f41a7414ceb80c16579b1cc30597855a23caf29b9fe1b785404a9bb4ffb33e13f5ba31f78a9b64497c3ba6608010fe2ece10bc3fda593024b287bf8cde57a2e
-Description: A modern APT package manager frontend
-Name: Sileo
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileo
-Architecture: iphoneos-arm
 Version: 2.2.6
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
@@ -145,34 +87,16 @@ SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
-Version: 2.2
+Version: 2.3-1
 Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
+Maintainer: Procursus Team <support@procurs.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2_iphoneos-arm.deb
-Size: 2195316
-MD5sum: db5beedd68803f2a481d073cb5bcb2fb
-SHA1: b13dde5dcb1e86e7c7d902f71ae3eae1c8b500b1
-SHA256: 72a24447ebc808720563e7a487f1e1fb2e78eadf93f3e0b9bb33f7c43f26b909
-SHA512: 5bcb7030883c22897b25e2695af4dd13de789c2d7369feb4a89f870c231c9f5abc05f5a4f3d2d02a6536718e11f2432a23bc4c22700aaaa00524fa41120f5036
-Description: A modern APT package manager frontend
-Name: Sileo
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileo
-Architecture: iphoneos-arm
-Version: 2.3
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.3_iphoneos-arm.deb
-Size: 1997556
-MD5sum: 8ec089704f0bd944d914ff044fef91a4
-SHA1: c3fc6093b43b37d41fd95bcfc7cb7852fc544870
-SHA256: d7cec451c30724bf92aec88ff217aa83a310ee87eab3fca438fce688a6d179ee
-SHA512: cedcd583b51118fd13107eb6dfc1bcfe7c1bbf5aee9a5364e38b439d7f60a34e9c016b048e912801f6edccfb1c15f531f06cc864185860fa9c3f2d3e74ddc0ff
+Filename: ./pool/org.coolstar.sileo_2.3-1_iphoneos-arm.deb
+Size: 2180462
+MD5sum: 41eae225ce6006d6b58e40f6eefd310b
+SHA1: 619c9f89b2b5080b5d418b4e144f129cabd35cc4
+SHA256: adc97a544ef835faacc1b4344dc1f1474e1930d78f72ad53e161d3bad4e18192
+SHA512: 0880631c8b3a88af8e7390f0688f2af6101a0ed7c1ded364317d50aeacdb82d467fa225f02f22b5e2e4c0d3c8ec672cad6647fe3a32a5ce01dfcd606e9bfcde4
 Description: A modern APT package manager frontend
 Name: Sileo
 Author: Sileo Team <getsileoapp@gmail.com>
