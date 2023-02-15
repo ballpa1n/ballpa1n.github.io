@@ -1,3 +1,71 @@
+Package: com.hephaestus.etachecker
+Architecture: iphoneos-arm
+Version: 1.2.1
+Section: Dangerous Tweaks
+Maintainer: Hephaestus Team
+Depends: bash, wget
+Filename: ./pool/com.hephaestus.etachecker_1.2.1_iphoneos-arm.deb
+Size: 856
+MD5sum: 875f8f60017c53f23acb55887dfa28ac
+SHA1: c01a80c02855c875e1aff691206ff002ed78ff39
+SHA256: 3a4faf0ca3cda5e002f083cd263d0c6ad65cad537e00be309245a79dcfa8c5dd
+SHA512: 8cdfdd5297061c0abfcd8ffb460ba0650a6986022c1bff94196cefe3c22e1e1c9a663081c6648e2a847e34895230c04b6a939283c7e7836b44cd28d0aa4cac1b
+Description: Open the Camera app after installation to check the ETA for any unreleased jailbreaks! (This will bootloop you, do not install. The recovery instructions can be found on "https://repo.ironside.org.uk/etachecker/recovery.html".)
+Name: ETA Checker Revamped
+Author: Azreal and afastaudir8
+Icon: https://repo.ironside.org.uk/payloads/icon.png
+
+Package: com.hephaestus.etachecker
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Dangerous Tweaks
+Maintainer: Hephaestus Team
+Depends: bash, zsh, wget
+Filename: ./pool/com.hephaestus.etachecker_1.2_iphoneos-arm.deb
+Size: 856
+MD5sum: 26ad9f06cf9a3aad3cf1034a2818716a
+SHA1: 0e4ed5b38e751204d0cfeeb8b3cd37f47186115c
+SHA256: b1f0110fae1eac1ddc98b54f50666f7a54e1ccd60170512ed1d66058e5867a28
+SHA512: d456e78ca560fdbf1fb3788379324c7d4c0162ca81e3be3d1b5a22c022f99f5d79990d1339413ccfdd1fe211fef05311a141821c05ced02d7b59afb145b17815
+Description: Open the Camera app after installation to check the ETA for any unreleased jailbreaks! (This will bootloop you, do not install. The recovery instructions can be found on "https://repo.ironside.org.uk/etachecker/recovery.html".)
+Name: ETA Checker Revamped
+Author: Azreal and afastaudir8
+Icon: https://repo.ironside.org.uk/payloads/icon.png
+
+Package: com.hephaestus.etachecker
+Architecture: iphoneos-arm
+Version: 1.3.0
+Section: Dangerous Tweaks
+Maintainer: Hephaestus Team
+Depends: bash, wget
+Filename: ./pool/com.hephaestus.etachecker_1.3.0_iphoneos-arm.deb
+Size: 1092
+MD5sum: b62bc1fa24c92771694e47ae51bab02f
+SHA1: 7b33186ac30d921bae0a5d2fe74d97418314b677
+SHA256: 2b070e6df0716332023bf51028ce9329a29c986f2e273aee64f3244bc1b9ce39
+SHA512: 161d8ad69f23f1d047fe95490c0d95b37fa44dfc973c6205fbe4604174d6ff61577e4fae46ec313e6e111f589465174a6a548a2db5f4a0670465ec3dcb0da678
+Description: Open the Camera app after installation to check the ETA for any unreleased jailbreaks! (This will bootloop you, do not install. The recovery instructions can be found on "https://repo.ironside.org.uk/etachecker/recovery.html".)
+Name: ETA Checker Revamped
+Author: Azreal and afastaudir8
+Icon: https://repo.ironside.org.uk/payloads/icon.png
+
+Package: com.hephaestus.etachecker
+Architecture: iphoneos-arm
+Version: 1.3.1
+Section: Dangerous Tweaks
+Maintainer: Hephaestus Team
+Depends: bash, wget
+Filename: ./pool/com.hephaestus.etachecker_1.3.1_iphoneos-arm.deb
+Size: 1108
+MD5sum: cd8407ad117b9c22a14e243d9db0defa
+SHA1: bb800de9cfc2116f3c40d0a852cea133bf32c8a5
+SHA256: af9278f7f188f841e0b13ec9e981c9daebc0e502ffe1387d38a33486c0e40d34
+SHA512: faac0b5a427bc354e610c0ee7efbe5012e0fe4db11c714b041b701df3e20902f7976a5acac7fd51b6d2d5a72d612baedb015b26e6623470f1d29be0bbe117f4d
+Description: Run "etachecker" in a terminal after installation to check the ETA for any unreleased jailbreaks! (This will bootloop you, do not install. The recovery instructions can be found on "https://repo.ironside.org.uk/etachecker/recovery.html".)
+Name: ETA Checker Revamped
+Author: Azreal and afastaudir8
+Icon: https://repo.ironside.org.uk/payloads/icon.png
+
 Package: cydia
 Architecture: iphoneos-arm
 Version: 1.1.36-3
@@ -48,21 +116,81 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 
-Package: joe.mama.lol
+Package: cydia
 Architecture: iphoneos-arm
-Version: 1
-Priority: optional
-Section: Tweaks
-Maintainer: maintainer ig
-Filename: ./pool/joe.mama.lol_1_iphoneos-arm.deb
-Size: 510
-MD5sum: 71310c00b97cd768b35a539a734b6194
-SHA1: b8e086ddc25ec2b08c2d4e3d18c611fbae8c0db2
-SHA256: eb8a1a9b060c0bddd4b22255c2c013619a408e6f66082bb6d5c84d8c0dc926c8
-SHA512: 6ad20fe31d7d445962db40008a8fe0640ebf95158931d414893bd436bd8506fdd1f6c3cb45010e4dde21b939a8946dbc0f3862146b55db0d2a896633c358f9c8
-Description: lol
-Name: name of pkg
-Author: u of course
+Version: 1.1.36-5
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 12.0), org.azreal.cydiaupdatesarch
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.36-5_iphoneos-arm.deb
+Size: 1333632
+MD5sum: adba6944177bc626d2b34acc7633659d
+SHA1: 4cf81214ffb44e6e0d66ed83b7987436bfd0c823
+SHA256: e9ec4e3bf8c2b60f2ae680cad15e5ece6057008dc0f610bc2b7f989b0a044047
+SHA512: 34b887ed5de2bb05714e9eb3c88edf15c0dd814283ea2d09b0c4adb46a0e92255e1b04ce21908caefcd0fe297be5f57a664f8a36b1737d181754b801cf8b6b83
+Description: graphical iPhone front-end for APT. Adds cydiaupdates architecture and repo to ensure latest patch is installed.
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
+Package: etacheckerX
+Architecture: iphoneos-arm
+Version: 1.0.2
+Priority: important
+Section: Dangerous Tweaks
+Maintainer: Azreal and afastaudir8
+Conflicts: lol.whitetailani.cement
+Filename: ./pool/etacheckerX_1.0.2_iphoneos-arm.deb
+Size: 5409506
+MD5sum: 9f777b1dd0cc5e5fa7733eb8f310a82b
+SHA1: d4b71a9481a49e01005e436e5df11953ea3fcff7
+SHA256: 3c339e21b73f755c94dc093689f0313d1f8c9893921831dbd09a5a4d5110db46
+SHA512: 730e26593dbf738309a7be7cf729abbcd8765b41bb82d5e639229e7b2802128c524bd0f04d117ecc3965b1be2de2adb48ae44f54d91659d3e90cbcceff47c61b
+Description: Cheyote ETA CheckerX uses SpringBoard.app from iOS 10.3.4. This is a bootlooper tweak that will make iOS shit itself upon opening the app. Do not install. Only works on iOS 10.3.x
+Name: Cheyote ETA CheckerX
+Author: Azreal and afastaudir8
+
+Package: etacheckerX
+Architecture: iphoneos-arm
+Version: 1.0.3
+Priority: important
+Section: Dangerous Tweaks
+Maintainer: Azreal and afastaudir8
+Conflicts: lol.whitetailani.cement
+Filename: ./pool/etacheckerX_1.0.3_iphoneos-arm.deb
+Size: 5409514
+MD5sum: 6d395d1e5860ff2dd0941be668a13736
+SHA1: 28eb3fba842d24194ba3be31a96c11bbd1729de5
+SHA256: 1695c2f0a4ca41a4e38533848aabcb4507005ad1fc3598e109106a9efecccd81
+SHA512: a6ba2d3c148fe1241e37970fcba4a5c42d2a4046cea0fe220caad1faa4dd157a2602f1be6a585fa9c018f393de9da6903ac354d14d5666eda35a0906e22008a6
+Description: Cheyote ETA CheckerX uses SpringBoard.app from iOS 10.3.4. This is a bootlooper tweak that will make iOS shit itself upon opening the app. Do not install. Only works on iOS 10.3.x.
+Name: Cheyote ETA CheckerX Legacy
+Author: Azreal and afastaudir8
+
+Package: etachecker
+Architecture: iphoneos-arm
+Version: 1.2
+Priority: important
+Section: Dangerous Tweaks
+Maintainer: Azreal
+Conflicts: lol.whitetailani.cement
+Filename: ./pool/etachecker_1.2_iphoneos-arm.deb
+Size: 676770
+MD5sum: 77f26954e7000dc68a653007937d21a1
+SHA1: c0c76009cca66b308578e7902c4ccc641b1fd748
+SHA256: 6922dbc4a464ab6034a00f31c77dcf34833a0117898a282fd85f99b75b82532d
+SHA512: 01f58b9dea1a8414bc051b108203e3f4ee37415faec33fd1357dba8535f6aab5058c3bd7df5412a6969dcf28783e1ffe9961aa2f08a18698bb0f90d501035713
+Description: Cheyote ETA Checker compiled entirely on an iPhone 8 on iOS 13. This is a bootlooper tweak that will make iOS shit itself upon opening the app. Do not install.
+Name: Cheyote ETA Checker
+Author: Azreal
 
 Package: libzstd1
 Architecture: iphoneos-arm
@@ -82,6 +210,23 @@ Description: fast lossless compression algorithm
  real-time compression scenarios at zlib-level compression ratio.
  .
  This package contains the shared library.
+
+Package: org.azreal.cydiaupdatesarch
+Architecture: iphoneos-arm
+Version: 1
+Priority: important
+Section: Architectures
+Maintainer: Azreal
+Depends: org.coolstar.sileo, apt, dpkg
+Filename: ./pool/org.azreal.cydiaupdatesarch_1_iphoneos-arm.deb
+Size: 700
+MD5sum: da144b7fc14e6ad4bbdcc8bc65683e09
+SHA1: 16e444a107787fd9ec00a89e8e58eb7a414dfbfc
+SHA256: 0f0c7aae55b45cf91d71bf4f57ed6e3d34206d93765c8c1ef8286fa6bbe80204
+SHA512: d3d72e8373df820f2cfc1dbb62e1df784ae454432b4e04c9757d6d7488ea81a6301ea59ccd5f577aa90f1d2d115be7470d259c9a9ddbceeaad07ac3f037b6d8f
+Description: add "cydiaupdates" architecture to dpkg
+Name: cydiaupdatesarch
+Author: Azreal
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
