@@ -48,6 +48,22 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 
+Package: joe.mama.lol
+Architecture: iphoneos-arm
+Version: 1
+Priority: optional
+Section: Tweaks
+Maintainer: maintainer ig
+Filename: ./pool/joe.mama.lol_1_iphoneos-arm.deb
+Size: 510
+MD5sum: 71310c00b97cd768b35a539a734b6194
+SHA1: b8e086ddc25ec2b08c2d4e3d18c611fbae8c0db2
+SHA256: eb8a1a9b060c0bddd4b22255c2c013619a408e6f66082bb6d5c84d8c0dc926c8
+SHA512: 6ad20fe31d7d445962db40008a8fe0640ebf95158931d414893bd436bd8506fdd1f6c3cb45010e4dde21b939a8946dbc0f3862146b55db0d2a896633c358f9c8
+Description: lol
+Name: name of pkg
+Author: u of course
+
 Package: libzstd1
 Architecture: iphoneos-arm
 Version: 1.5.0
@@ -66,24 +82,6 @@ Description: fast lossless compression algorithm
  real-time compression scenarios at zlib-level compression ratio.
  .
  This package contains the shared library.
-
-Package: org.azreal.freenitro
-Architecture: iphoneos-arm
-Version: 9.5~b1
-Priority: optional
-Section: Tweaks
-Maintainer: ballpa1n team
-Conflicts: etachecker, lol.whitetailani.cement
-Filename: ./pool/org.azreal.freenitro_9.5~b1_iphoneos-arm.deb
-Size: 676852
-MD5sum: 3cc5c35ddf7e9ef758d12011dc7b260c
-SHA1: 6404bc8268c0000124f62e68a384dc8ccbc192aa
-SHA256: 956e2cca71603685bd9def2f68d3bcfffc02cac7d3ec43c1c055ab14e313c891
-SHA512: d25c5ce030aac47db64004d976af1942eba1e023283b7ecfd121af6227ca23d9489d622d66ed9079b659b59267e79859a8e01b06381b70ec6c2804b736dc5c7c
-Description: Free Nitro Hack for Discord on iOS.
-Name: Free Nitro Hack
-Author: Azreal
-Icon: https://repo.ballpa.in/images/nitro.png
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
