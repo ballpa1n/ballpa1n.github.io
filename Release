@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm
 Codename: ios
 Components: main
-Date: Fri, 22 Nov 2024 19:16:31 +0000
+Date: Fri, 22 Nov 2024 20:23:09 +0000
 Description: A repository for necessary packages for the ballpa1n untether.
 Label: ballpa1n repository
 Origin: ballpa1n repository
@@ -12,22 +12,22 @@ MD5Sum:
  348807886497115ccd13355b2cb8218b             4443 Packages.bz2
  048d449a5bafe6c8531e465f5cdd21a9             4020 Packages.xz
  1e40004866bc5918f65347efd9652221             4017 Packages.zst
- 0cd7a2e35f9a7036ad961d4d3108661f              258 Release
+ a761ca75197276990b84148ef061127b              258 Release
 SHA1:
  059c853211670d23c4f32133c897fa17806f3303            13133 Packages
  13eab0f5a7210dbc347084f70aed38a5ac0ae05a             4443 Packages.bz2
  eb992b483633352f89195700395a511012d06211             4020 Packages.xz
  d996f604b6c5952dd0d0daeb3d04fec387226e94             4017 Packages.zst
- e7f701e308d9a2326749cae56f244669a7373cbb              258 Release
+ 264460590a9235f9332050537de037e76ee9c882              258 Release
 SHA256:
  2b70d0d0461a8fb6a723e3c8769ae9eb5865a253f26a147a3ada0442ed5fa948            13133 Packages
  a6a3e75687837eace40d739952d14c02abfd1fe8892eaa742466457f0c16a9d1             4443 Packages.bz2
  49f85bef17f9be40e576a9822a8a6a68da36d643e2632cbe74db7aec7dc93daa             4020 Packages.xz
  b2cb9e808f505910cbf8021e53594de51c60732201bd3a23c2ed7eea3b54cae6             4017 Packages.zst
- 4f59b6f30a98ea330f738f0701236358ece796cf0b34024f566e461c8f0ada83              258 Release
+ 3d9ff44f8c89232feb99e2b5b694bbbf41736dd4ce57946c27794dfc87456bbb              258 Release
 SHA512:
  c0fa7a4177d621a936f92c3400fc53816c4c3e82fb76dd2d496467fb1b4a534254a195887a05288fe823ebe36f84b97ff9ebca234897605ffd5654ad0542ddd1            13133 Packages
  b48b550cf4cbf1e8bfef68f7382c48a410dfc31a91bef529bf8bc90494045b7c5c11c0d85f63aaf53399e67736a560425ba2a1aac91e88d461a1f55077b230ba             4443 Packages.bz2
  f7a8a83c095de1e2b6e639453d006855a7f653fbbcc04c032a987bca8fa457e71fdb7559b2d1ed77120be0fcd3d085bf1b09db699a8eb6b55a7721153e2d67f2             4020 Packages.xz
  7c715c6820d5e3913de47556a0e39517090288596be2730cbc158f08e6adc2db3761e6853bbbbefd8c7e1cc6c27e1932ac7f33830b09e81daa01cf54f9df805e             4017 Packages.zst
- 7b15a5efa0d83758f6d94438f05af0b7bfd9f7cf6d9fc3a81d6b059efb5139a7f073786262086d7b97ca87b4d7340d5b51da1e3ef324cbf77542ab35f68c5cdd              258 Release
+ 70983dc1794a3b7ac017aa753f0c07a0f353a5f94cc5e5f8453cb8a44ef67316bb460d7a7a70eddd443dca3b66fd80026a4297d3bd6c59ed991dbdbe565ff6c2              258 Release
